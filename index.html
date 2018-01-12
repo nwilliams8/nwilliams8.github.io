@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Data Visualization</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js" type="text/javascript"></script>
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+    <style>
+      h1{
+        color:#ccc;
+        font-size: 60px;
+        margin: auto;
+        width: 50%;
+        text-align: center;
+      }
+      div{
+        margin: auto;
+        width: 1200px;
+      }
+      h2{
+        margin: auto;
+        text-align: center;
+        width:50%;
+      }
+      .button{
+        margin: auto;
+        width: 1200px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1> Data Visualization </h1>
+    <div id="Canvas"></div>
+    <section class="button">
+      <form id = "Checkbox">
+        <label>Director</label>
+        </form>
+      <form id = "BackButton"></form>
+      </section>
+    <h2> Click on the details button to reveal more information about the movie.</h2>
+  </body>
+</html>
