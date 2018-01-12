@@ -13,7 +13,7 @@ function preload() {
   font3 = loadFont('libraries/jet-pilot.regular.ttf')
   //For each position of the array, load a JSON object
   for (let i=0; i<FilmArray.length; i++){
-    let url = "http://www.omdbapi.com/?t="+FilmArray[i]+"&apikey="+apiKey;
+    let url = "https://www.omdbapi.com/?t="+FilmArray[i]+"&apikey="+apiKey;
     film[i] = loadJSON(url); //weather will not contain all cities' weather data
   }
 }
