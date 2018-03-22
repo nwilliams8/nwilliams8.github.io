@@ -1,0 +1,205 @@
+
+h6{
+  font-family: 'Kavoon', cursive;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  padding: 0;
+  text-align: center;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Kavoon', cursive;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Fruktur', cursive;
+}
+
+.carousel-caption{
+  background-color: rgba(0,0,0,0.2);
+}
+.caption{
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+.aboutUsSection{
+  background-color: #ccc;
+}
+
+footer{
+  background-color: #111;
+  color: #fff;
+}
+
+.modal-content{
+  background-color: black;
+}
+
+.btn-secondary{
+  background-color: #111;
+}
+
+.hvr-shutter-in-horizontal{
+  background: #bada55;
+}
+
+.hvr-shutter-in-horizontal::before{
+  background: #343a40 !important;
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-image: url("../assets/spiration dark.png");
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 0px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.hvr-underline-from-left::before{
+  background-color: #ccc;
+}
+#button{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+#myContainer h1{
+  color:black;
+  font-family: 'BioRhyme', serif;
+}
+#backgroundAnimation{
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+a:hover{
+  color: #3b4148;
+}
+.card{
+  flex-direction:row;
+}
+#left{
+  margin-left: 20px;
+}
+#right{
+  margin-right: 20px;
+  text-align: right;
+}
+.carousel-caption{
+  bottom: auto;
+}
+#fadeIn{
+  -moz-animation-duration: 5s;
+}
+#about{
+  max-width: 1750px;
+}
+.ml-lg-4{
+  margin-left: 15% !important;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("../assets/Image2.PNG");
+
+    /* Set a specific height */
+    height: 1000px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax {
+    /* The image used */
+    background-image: url("../assets/Image1.jpg");
+
+    /* Set a specific height */
+    height: 1000px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption2 {
+    position:relative;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.caption2 span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+a{
+  color: #ccc;
+}
+#information{
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+.navbar-toggler{
+  color:#D3D3D3;
+}

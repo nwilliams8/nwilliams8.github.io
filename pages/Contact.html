@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Neil Williams</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=BioRhyme|Bungee+Shade|Creepster|Ewert|Fruktur|Monoton|Kavoon" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Raleway" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="../css/hover.min.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+  </head>
+<body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+        <i class="fas fa-angle-double-left"></i>
+      </a>
+      <a class="hvr-underline-from-left" href="../index.html">Home</a>
+      <a class="hvr-underline-from-left" href="Projects.html">Projects</a>
+      <a class="hvr-underline-from-left" href="AboutPage.html">About</a>
+      <a class="hvr-underline-from-left"href="Contact.html">Contact</a>
+    </div>
+  <div>
+  <!-- Use any element to open the sidenav -->
+  <button id='button' class="navbar-toggler text-white" onclick="openNav()">
+    <i class="fas fa-angle-double-right fa-2x"></i>
+  </button>
+  </div>
+<div id='main'>
+  <header>
+    <a href="../index.html"><h6>Neil Williams<h6></a>
+    <section>
+  <div class="container">
+  <h2 class="text-center pt-5">Contact Me</h2>
+  <hr class="mb-5">
+    <form action="https://formspree.io/neil.williams8@students.plymouth.ac.uk." method="POST">
+      <div class="form-group">
+        <input class="form-control" id="name" type="text" placeholder="Name" required="required">
+      </div>
+      <div class="form-group">
+          <input class="form-control" id="email" type="email" placeholder="Email Address" required="required">
+      </div>
+      <div class="form-group">
+          <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required">
+      </div>
+      <div class="form-group">
+          <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required"></textarea>
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primay w-100" type="submit">Send</button>
+      </div>
+    </form>
+  </div>
+</section>
+    <footer class="text-center mt-5 pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4 mg-lg-0">
+            <h4 class="text-uppercase mb-4">Address</h4>
+            <p class="lead mb-0">Drakes Circus
+            <br>
+            Plymouth, PL4 8AA</p>
+          </div>
+          <div class="col-md-4 mb-4 mg-lg-0">
+            <h4 class="text-uppercase mb-4">Social Media</h4>
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="http://www.facebook.com">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fab fa-google-plus-g"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-4 mg-lg-0">
+            <h4 class="text-uppercase mb-4">About This Page</h4>
+            <p>This page was made as part of the DMD-404 module</p>
+          </div>
+      </div>
+    </div>
+    </footer>
+    <div class="text-center pt-1 pb-1">
+      <small>Copyright &copy; <span id="autoDate"></span></small>
+    </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="babbagePopUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="modal fade" id="maryNewmanPopUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title MN</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+<script src="../js/sketch.js"></script>
+</body>
+</html>
