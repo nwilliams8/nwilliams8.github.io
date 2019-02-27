@@ -203,3 +203,14 @@ a{
 .navbar-toggler{
   color:#D3D3D3;
 }
+#blender{
+  color: black;
+}
+.CustomClose{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 10px;
+}
+.modal-dialog{
+  max-width: 1000px;
+}
