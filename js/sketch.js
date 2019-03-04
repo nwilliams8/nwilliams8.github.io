@@ -4,7 +4,7 @@ let arraySize = 300; // defines number of objects in array
 function setup() { // sets up canvas, sliders and for loop for the array
    var canvas = createCanvas(innerWidth, innerHeight); // creates canvas 500px by 500px
    canvas.parent('myContainer');
-   background(255); // fills background
+   //background(255); // fills background
    for (let i=0; i<arraySize; i++){
       circleArray[i] = new Circle(width/2, height/2, random(-0.025, 0.025), random(-0.025, 0.025), random(10));
      }
